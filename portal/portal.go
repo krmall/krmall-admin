@@ -1,0 +1,3 @@
+package portal
+
+//go:generate go-bindata -fs -nomemcopy -pkg=portal -prefix=../dist -debug=false -o=portal_gen.go ../dist/...
